@@ -1,0 +1,3 @@
+Our goal is simply to teach children to code.  We believe that a basic understanding of software engineering provides a set of fundamental skills that is vital, both to the child's future and the future of the global economy.  It's not just about STEM (Science, Technology, Engineering, and Math), but also about liberal arts: being able to think critically about problems is the first step to finding solutions.  An early introduction to computer science is an investment in the future.  To quote Douglas Rushkoff, "'Computer class' can't be about teaching kids to use today's software; it must be about teaching kids to make tomorrow's software."
+
+We also support the use of free and open-source technologies that provide the widest availability and access to all students.
