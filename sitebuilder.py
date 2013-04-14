@@ -42,6 +42,11 @@ def resources():
     return render_template('resources.html', title="Resources")
 
 
+@app.route("/aboutpi.html")
+def aboutpi():
+    return render_template('aboutpi.html', title="Resources")
+
+
 @app.route('/font/<path:filename>')
 @app.route('/img/<path:filename>')
 def static_root(filename):
