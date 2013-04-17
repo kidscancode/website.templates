@@ -47,6 +47,26 @@ def aboutpi():
     return render_template('aboutpi.html', title="Resources")
 
 
+@app.route("/signup.html")
+def signup():
+    return render_template('signup.html', title="Resources")
+
+
+@app.route("/schedule.html")
+def schedule():
+    return render_template('schedule.html', title="Resources")
+
+
+@app.route("/class-terms.html")
+def terms():
+    return render_template('class-terms.html', title="Resources")
+
+
+@app.route("/thanks.html")
+def thanks():
+    return render_template('thanks.html', title="Resources")
+
+
 @app.route('/font/<path:filename>')
 @app.route('/img/<path:filename>')
 def static_root(filename):
