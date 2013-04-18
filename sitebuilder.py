@@ -49,7 +49,7 @@ def aboutpi():
 
 @app.route("/signup.html")
 def signup():
-    return render_template('signup.html', title="Resources")
+    return render_template('signup.html', title="Signup")
 
 
 @app.route("/schedule.html")
@@ -59,12 +59,12 @@ def schedule():
 
 @app.route("/class-terms.html")
 def terms():
-    return render_template('class-terms.html', title="Resources")
+    return render_template('class-terms.html', title="Terms")
 
 
 @app.route("/thanks.html")
 def thanks():
-    return render_template('thanks.html', title="Resources")
+    return render_template('thanks.html', title="Thanks")
 
 
 @app.route('/font/<path:filename>')

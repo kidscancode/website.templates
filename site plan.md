@@ -46,9 +46,10 @@ X home
     - about.html: pics of us
 
 
-## priya
-- website ideas/review - wed
-- research on locations - fri
-- insurance?  find out what kind we need - fri
-- research - grants available for girls in tech?
-- bio text
+## still todo
+* registration form
+* class details
+* more calls to action esp re: included Pi kit
+* T&C + waiver for post signup
+* social prompt popup
+* bios
