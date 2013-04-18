@@ -34,7 +34,7 @@ def classes():
 
 @app.route("/about.html")
 def about():
-    return render_template('about.html', title="Classes")
+    return render_template('about.html', title="About")
 
 
 @app.route("/resources.html")
