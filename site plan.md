@@ -48,7 +48,6 @@ X home
 
 ## still todo
 * registration form
-* class details
 * more calls to action esp re: included Pi kit
 * T&C + waiver for post signup
 * social prompt popup
