@@ -52,11 +52,6 @@ def signup():
     return render_template('signup.html', title="Signup")
 
 
-@app.route("/schedule.html")
-def schedule():
-    return render_template('schedule.html', title="Resources")
-
-
 @app.route("/class-terms.html")
 def terms():
     return render_template('class-terms.html', title="Terms")
