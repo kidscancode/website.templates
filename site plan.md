@@ -12,10 +12,9 @@ X home
 |__X About - about.html
 |__X Contact - contact.html
 |__X WhyCode? - whycode.html
-|__RPiIntro - rpi-intro.html
+|__X RPiIntro - aboutpi.html
 |__X WhatTeach? - classes.html
 |__X FindMore - resources.html
-|__Your School - schools.html
 |__sponsor.html
 
 
@@ -47,8 +46,5 @@ X home
 
 
 ## still todo
-* registration form
-* more calls to action esp re: included Pi kit
 * T&C + waiver for post signup
 * social prompt popup
-* bios
