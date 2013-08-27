@@ -42,9 +42,14 @@ def resources():
     return render_template('resources.html', title="Resources")
 
 
+@app.route("/store.html")
+def store():
+    return render_template('store.html', title="Store")
+
+
 @app.route("/aboutpi.html")
 def aboutpi():
-    return render_template('aboutpi.html', title="Resources")
+    return render_template('aboutpi.html', title="About Pi")
 
 
 @app.route("/signup.html")
