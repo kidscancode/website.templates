@@ -49,12 +49,17 @@ def store():
 
 @app.route("/aboutpi.html")
 def aboutpi():
-    return render_template('aboutpi.html', title="About Pi")
+    return render_template('aboutpi.html', title="About Raspberry Pi")
 
 
 @app.route("/signup.html")
 def signup():
     return render_template('signup.html', title="Signup")
+
+
+@app.route("/sumac-fall.html")
+def sumacfall():
+    return render_template('sumac-fall.html', title="Signup")
 
 
 @app.route("/class-terms.html")
