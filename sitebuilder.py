@@ -61,6 +61,9 @@ def signup():
 def sumacfall():
     return render_template('sumac-fall.html', title="Signup")
 
+@app.route("/opodz-signup.html")
+def opodzsignup():
+    return render_template('opodz-signup.html', title="Signup")
 
 @app.route("/class-terms.html")
 def terms():
