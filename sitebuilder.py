@@ -65,6 +65,10 @@ def sumacfall():
 def opodzsignup():
     return render_template('opodz-signup.html', title="Signup")
 
+@app.route("/monlux.html")
+def monluxsignup():
+    return render_template('monlux.html', title="Signup")
+
 @app.route("/class-terms.html")
 def terms():
     return render_template('class-terms.html', title="Terms")
