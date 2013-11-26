@@ -61,9 +61,9 @@ def signup():
 def sumacfall():
     return render_template('sumac-fall.html', title="Signup")
 
-@app.route("/reed.html")
-def reed():
-    return render_template('reed.html', title="Signup")
+@app.route("/reed2.html")
+def reed2():
+    return render_template('reed2.html', title="Signup")
 
 @app.route("/opodz-signup.html")
 def opodzsignup():
