@@ -57,21 +57,30 @@ def signup():
     return render_template('signup.html', title="Signup")
 
 
-@app.route("/sumac-fall.html")
-def sumacfall():
-    return render_template('sumac-fall.html', title="Signup")
+@app.route("/sumac.html")
+def sumac():
+    return render_template('sumac.html', title="Signup")
+
 
 @app.route("/reed2.html")
 def reed2():
     return render_template('reed2.html', title="Signup")
 
+
+@app.route("/reed.html")
+def reed():
+    return render_template('reed.html', title="Signup")
+
+
 @app.route("/opodz-signup.html")
 def opodzsignup():
     return render_template('opodz-signup.html', title="Signup")
 
+
 @app.route("/monlux.html")
 def monluxsignup():
     return render_template('monlux.html', title="Signup")
+
 
 @app.route("/class-terms.html")
 def terms():
