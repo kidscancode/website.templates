@@ -62,9 +62,9 @@ def sumac():
     return render_template('sumac.html', title="Signup")
 
 
-@app.route("/reed2.html")
-def reed2():
-    return render_template('reed2.html', title="Signup")
+@app.route("/sumac")
+def sumac2():
+    return render_template('sumac.html', title="Signup")
 
 
 @app.route("/reed.html")
@@ -72,9 +72,9 @@ def reed():
     return render_template('reed.html', title="Signup")
 
 
-@app.route("/opodz-signup.html")
-def opodzsignup():
-    return render_template('opodz-signup.html', title="Signup")
+@app.route("/reed")
+def reed2():
+    return render_template('reed.html', title="Signup")
 
 
 @app.route("/monlux.html")
@@ -90,6 +90,11 @@ def terms():
 @app.route("/thanks.html")
 def thanks():
     return render_template('thanks.html', title="Thanks")
+
+
+@app.route("/summer")
+def summer():
+    return render_template('summer.html', title="Summer Camps")
 
 
 @app.route('/font/<path:filename>')
