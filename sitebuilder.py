@@ -62,7 +62,7 @@ def sumac():
     return render_template('sumac.html', title="Signup")
 
 
-@app.route("/sumac")
+@app.route("/sumac/")
 def sumac2():
     return render_template('sumac.html', title="Signup")
 
@@ -72,7 +72,7 @@ def reed():
     return render_template('reed.html', title="Signup")
 
 
-@app.route("/reed")
+@app.route("/reed/")
 def reed2():
     return render_template('reed.html', title="Signup")
 
@@ -92,7 +92,7 @@ def thanks():
     return render_template('thanks.html', title="Thanks")
 
 
-@app.route("/summer")
+@app.route("/summer/")
 def summer():
     return render_template('summer.html', title="Summer Camps")
 
