@@ -97,6 +97,11 @@ def summer():
     return render_template('summer.html', title="Summer Camps")
 
 
+@app.route("/scratch.html")
+def scratch():
+    return render_template('scratch.html', title="About Scratch")
+
+
 @app.route('/font/<path:filename>')
 @app.route('/img/<path:filename>')
 def static_root(filename):
