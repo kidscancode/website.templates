@@ -76,6 +76,9 @@ def reed():
 def reed2():
     return render_template('reed.html', title="Signup")
 
+@app.route("/carden/")
+def carden():
+    return render_template('carden.html', title="Signup")
 
 @app.route("/monlux.html")
 def monluxsignup():
