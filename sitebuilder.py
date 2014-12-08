@@ -80,7 +80,7 @@ def reed2():
 # def carden():
 #     return render_template('carden.html', title="Signup")
 
-@app.route("/monlux.html")
+@app.route("/monlux/")
 def monluxsignup():
     return render_template('monlux.html', title="Signup")
 
@@ -99,14 +99,19 @@ def thanks():
 # def summer():
 #     return render_template('summer.html', title="Summer Camps")
 
-@app.route("/fall2014/")
+@app.route("/winter2015/")
 def fall2014():
-    return render_template('fall2014.html', title="After School Programs")
+    return render_template('winter2015.html', title="After School Programs")
 
 
 @app.route("/millikan/")
 def millikan():
     return render_template('millikan.html', title="Signup")
+
+
+@app.route("/montevista/")
+def montevista():
+    return render_template('montevista.html', title="Signup")
 
 
 @app.route("/scratch.html")
