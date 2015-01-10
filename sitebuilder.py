@@ -76,9 +76,6 @@ def reed():
 def reed2():
     return render_template('reed.html', title="Signup")
 
-# @app.route("/carden/")
-# def carden():
-#     return render_template('carden.html', title="Signup")
 
 @app.route("/monlux/")
 def monluxsignup():
@@ -117,6 +114,11 @@ def montevista():
 @app.route("/scratch.html")
 def scratch():
     return render_template('scratch.html', title="About Scratch")
+
+
+@app.route("/python-install.html")
+def python_install():
+    return render_template('python-install.html', title="Installing Python")
 
 
 @app.route('/font/<path:filename>')

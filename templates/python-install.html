@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+<!-- Static image replaces carousel -->
+    <div class="row">
+        <div class="span1"></div>
+      <div class="span10">
+        <img src="img/img_code.jpg" alt="" class="img-rounded">
+      </div>
+      <div class="span1"></div>
+    </div>
+
+  <div class="row">
+    <div class="span1"></div>
+    <div class="span10">
+      <!-- begin Markdown output -->
+      <h1 id="installing">Installing Python</h2>
+
+<p>By itself, Python is very easy to install.  See below for instructions for your operating system.</p>
+
+<h2 id="windows">Windows 95/2000/7/8</h2>
+
+<ol>
+  <li>Download the <a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi">latest Python installer</a> from python.org.</li>
+  <li>When the download completes, double-click on the file you downloaded.</li>
+  <li>Follow the directions to complete the installation.</li>
+  <li>"IDLE (Python GUI)" will appear in your Start Menu.</li>
+</ol>
+
+<h2 id="osx">OS X</h2>
+<ol>
+  <li>Download the <a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2-macosx10.6.pkg">latest Python installer</a> from python.org.</li>
+  <li>When the download completes, double-click on the file you downloaded.</li>
+  <li>Follow the directions to complete the installation.</li>
+  <!-- <li>Go to <a href="http://www.activestate.com/activetcl/downloads">http://www.activestate.com/activetcl/downloads</a></li> -->
+  <li>"Idle" will appear in your Applications folder or Launcher.</li>
+</ol>
+
+<p>For more details and technical information, visit <a href="http://python.org/">python.org</a>.
+</p>
+
+      <!-- End Markdown output -->
+
+    </div> <!-- /.span10 -->
+    <div class="span1"></div>
+  </div> <!-- /.row -->
+</div> <!-- /.container features -->
+{% endblock content %}
