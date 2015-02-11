@@ -17,6 +17,12 @@ def index():
     return render_template('index.html', title="Home")
 
 
+# Seen high stats on analytics.  No idea where it's coming from, but let's catch it!
+@app.route("/KidsCanCode-Coding-for-kids/")
+def bad_url1():
+    return render_template('redir.html', title="Home")
+
+
 @app.route("/contact.html")
 def contact():
     return render_template('contact.html', title="Contact")
@@ -57,29 +63,19 @@ def signup():
     return render_template('signup.html', title="Signup")
 
 
-@app.route("/sumac.html")
-def sumac():
-    return render_template('sumac.html', title="Signup")
+# @app.route("/sumac/")
+# def sumac2():
+#     return render_template('sumac.html', title="Signup")
 
 
-@app.route("/sumac/")
-def sumac2():
-    return render_template('sumac.html', title="Signup")
+# @app.route("/reed/")
+# def reed2():
+#     return render_template('reed.html', title="Signup")
 
 
-@app.route("/reed.html")
-def reed():
-    return render_template('reed.html', title="Signup")
-
-
-@app.route("/reed/")
-def reed2():
-    return render_template('reed.html', title="Signup")
-
-
-@app.route("/monlux/")
-def monluxsignup():
-    return render_template('monlux.html', title="Signup")
+# @app.route("/monlux/")
+# def monluxsignup():
+#     return render_template('monlux.html', title="Signup")
 
 
 @app.route("/class-terms.html")
@@ -92,9 +88,10 @@ def thanks():
     return render_template('thanks.html', title="Thanks")
 
 
-# @app.route("/summer/")
-# def summer():
-#     return render_template('summer.html', title="Summer Camps")
+@app.route("/summer/")
+def summer():
+    return render_template('summer2015.html', title="Summer Camps")
+
 
 @app.route("/winter2015/")
 def fall2014():
@@ -109,6 +106,11 @@ def millikan():
 @app.route("/montevista/")
 def montevista():
     return render_template('montevista.html', title="Signup")
+
+
+@app.route("/vip/")
+def vip():
+    return render_template('vip.html', title="Signup")
 
 
 @app.route("/scratch.html")
