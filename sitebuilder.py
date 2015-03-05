@@ -23,6 +23,18 @@ def bad_url1():
     return render_template('redir.html', title="Home")
 
 
+# another one
+@app.route("/c/KidscancodeOrg/")
+def bad_url2():
+    return render_template('redir_yt.html', title="Home")
+
+
+# another one
+@app.route("/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/")
+def bad_url3():
+    return render_template('redir_yt.html', title="Home")
+
+
 @app.route("/contact.html")
 def contact():
     return render_template('contact.html', title="Contact")
