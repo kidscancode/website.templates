@@ -102,8 +102,11 @@ def thanks():
 
 @app.route("/summer/")
 def summer():
-    return render_template('summer2015.html', title="Summer Camps")
+    return render_template('summer2016.html', title="Summer Camps")
 
+@app.route("/buildcamp/")
+def buildcamp():
+    return render_template('buildcamp.html', title="Design and Build Camp 2016")
 
 @app.route("/fall2015/")
 def fall2015():
