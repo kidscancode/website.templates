@@ -99,6 +99,9 @@ def terms():
 def thanks():
     return render_template('thanks.html', title="Thanks")
 
+@app.route("/scratch.html")
+def scratch():
+    return render_template('scratch.html', title="About Scratch")
 
 @app.route("/summer/")
 def summer():
@@ -112,26 +115,21 @@ def buildcamp():
 def fall2016():
     return render_template('fall2016.html', title="After School Programs")
 
-
-@app.route("/millikan/")
+@app.route("/millikan_tues/")
 def millikan():
     return render_template('millikan.html', title="Signup")
 
+@app.route("/millikan_wed/")
+def millikan2():
+    return render_template('millikan2.html', title="Signup")
 
-@app.route("/montevista/")
-def montevista():
-    return render_template('montevista.html', title="Signup")
+@app.route("/science_academy/")
+def science():
+    return render_template('science_academy.html', title="Signup")
 
-
-@app.route("/vip/")
-def vip():
-    return render_template('vip.html', title="Signup")
-
-
-@app.route("/scratch.html")
-def scratch():
-    return render_template('scratch.html', title="About Scratch")
-
+@app.route("/lessons/")
+def lessons():
+    return render_template('lessons.html', title="Lessons & Tutorials")
 
 @app.route("/python-install.html")
 def python_install():
