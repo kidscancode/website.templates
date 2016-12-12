@@ -115,11 +115,11 @@ def buildcamp():
 def fall2016():
     return render_template('fall2016.html', title="After School Programs")
 
-@app.route("/millikan_tues/")
-def millikan():
-    return render_template('millikan.html', title="Signup")
+# @app.route("/millikan_tues/")
+# def millikan():
+#     return render_template('millikan.html', title="Signup")
 
-@app.route("/millikan_wed/")
+@app.route("/millikan/")
 def millikan2():
     return render_template('millikan2.html', title="Signup")
 
