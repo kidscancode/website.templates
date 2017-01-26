@@ -74,17 +74,6 @@ def aboutpi():
 def signup():
     return render_template('signup.html', title="Signup")
 
-
-# @app.route("/sumac/")
-# def sumac2():
-#     return render_template('sumac.html', title="Signup")
-
-
-# @app.route("/reed/")
-# def reed2():
-#     return render_template('reed.html', title="Signup")
-
-
 # @app.route("/monlux/")
 # def monluxsignup():
 #     return render_template('monlux.html', title="Signup")
@@ -103,13 +92,13 @@ def thanks():
 def scratch():
     return render_template('scratch.html', title="About Scratch")
 
-@app.route("/summer/")
-def summer():
-    return render_template('summer2016.html', title="Summer Camps")
+# @app.route("/summer/")
+# def summer():
+#     return render_template('summer2016.html', title="Summer Camps")
 
-@app.route("/buildcamp/")
-def buildcamp():
-    return render_template('buildcamp.html', title="Design and Build Camp 2016")
+# @app.route("/buildcamp/")
+# def buildcamp():
+#     return render_template('buildcamp.html', title="Design and Build Camp 2016")
 
 @app.route("/fall2016/")
 def fall2016():
