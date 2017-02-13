@@ -92,9 +92,9 @@ def thanks():
 def scratch():
     return render_template('scratch.html', title="About Scratch")
 
-# @app.route("/summer/")
-# def summer():
-#     return render_template('summer2016.html', title="Summer Camps")
+@app.route("/summer/")
+def summer():
+    return render_template('summer2017.html', title="Summer Camps")
 
 # @app.route("/buildcamp/")
 # def buildcamp():
